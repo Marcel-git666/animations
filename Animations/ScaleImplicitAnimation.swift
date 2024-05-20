@@ -17,7 +17,8 @@ struct Example1: View {
             .frame(width: 200, height: 400)
             .scaleEffect(half ? 0.5 : 1.0)
             .opacity(dim ? 0.2 : 1.0)
-            .animation(.easeInOut(duration: 1.0))
+            .animation(.easeInOut(duration: 1.0), value: half)
+            .animation(.easeInOut(duration: 1.0), value: dim)
             .onTapGesture {
                 self.dim.toggle()
                 self.half.toggle()
