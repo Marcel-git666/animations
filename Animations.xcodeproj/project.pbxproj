@@ -12,6 +12,7 @@
 		1FCA89AF2BFB7F88001BD5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCA89AE2BFB7F88001BD5E5 /* Assets.xcassets */; };
 		1FCA89B22BFB7F88001BD5E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCA89B12BFB7F88001BD5E5 /* Preview Assets.xcassets */; };
 		1FCA89B92BFB800D001BD5E5 /* FlameEffectModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA89B82BFB800D001BD5E5 /* FlameEffectModifier.swift */; };
+		1FCA89BB2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA89BA2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1FCA89AE2BFB7F88001BD5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FCA89B12BFB7F88001BD5E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FCA89B82BFB800D001BD5E5 /* FlameEffectModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlameEffectModifier.swift; sourceTree = "<group>"; };
+		1FCA89BA2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleImplicitAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				1FCA89AA2BFB7F87001BD5E5 /* AnimationsApp.swift */,
 				1FCA89AC2BFB7F87001BD5E5 /* ContentView.swift */,
+				1FCA89BA2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift */,
 				1FCA89B82BFB800D001BD5E5 /* FlameEffectModifier.swift */,
 				1FCA89AE2BFB7F88001BD5E5 /* Assets.xcassets */,
 				1FCA89B02BFB7F88001BD5E5 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				1FCA89AD2BFB7F87001BD5E5 /* ContentView.swift in Sources */,
 				1FCA89B92BFB800D001BD5E5 /* FlameEffectModifier.swift in Sources */,
+				1FCA89BB2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift in Sources */,
 				1FCA89AB2BFB7F87001BD5E5 /* AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
