@@ -15,11 +15,12 @@ struct AnimationExample1: View {
             PolygonShape(sides: sides)
                 .stroke(Color.blue, lineWidth: 3)
                 .padding(20)
-                .animation(.easeInOut(duration: 1.0))
+                .animation(.easeInOut(duration: 2.0), value: sides)
                 .layoutPriority(1)
             
             Text("\(Int(sides)) sides").font(.headline)
             
+            Slider(value: $sides, in: 1...10)
             HStack(spacing: 20) {
                 MyButton(label: "1") {
                     self.sides = 1.0

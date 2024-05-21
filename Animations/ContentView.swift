@@ -16,7 +16,7 @@ struct ContentView: View {
                         Text("Example 1 (sides: Double)")
                     })
                     
-                    NavigationLink(destination: AnimationExample1(), label: {
+                    NavigationLink(destination: AnimationExample2(), label: {
                         Text("Example 2 (sides: Int)")
                     })
                     

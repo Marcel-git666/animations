@@ -16,6 +16,8 @@
 		1FD477E32BFB998400D8E481 /* PolygonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD477E22BFB998400D8E481 /* PolygonShape.swift */; };
 		1FD477E52BFB9FBC00D8E481 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD477E42BFB9FBC00D8E481 /* MyButton.swift */; };
 		1FD477E72BFBA05C00D8E481 /* AnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD477E62BFBA05C00D8E481 /* AnimationExample.swift */; };
+		1FD477E92BFBB78500D8E481 /* AnimationExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD477E82BFBB78500D8E481 /* AnimationExample2.swift */; };
+		1FD477EB2BFBB80C00D8E481 /* PolygonShape2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD477EA2BFBB80C00D8E481 /* PolygonShape2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		1FD477E22BFB998400D8E481 /* PolygonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonShape.swift; sourceTree = "<group>"; };
 		1FD477E42BFB9FBC00D8E481 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		1FD477E62BFBA05C00D8E481 /* AnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample.swift; sourceTree = "<group>"; };
+		1FD477E82BFBB78500D8E481 /* AnimationExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample2.swift; sourceTree = "<group>"; };
+		1FD477EA2BFBB80C00D8E481 /* PolygonShape2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonShape2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +68,11 @@
 				1FCA89AA2BFB7F87001BD5E5 /* AnimationsApp.swift */,
 				1FCA89AC2BFB7F87001BD5E5 /* ContentView.swift */,
 				1FD477E22BFB998400D8E481 /* PolygonShape.swift */,
+				1FD477EA2BFBB80C00D8E481 /* PolygonShape2.swift */,
 				1FD477E42BFB9FBC00D8E481 /* MyButton.swift */,
 				1FCA89BA2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift */,
 				1FD477E62BFBA05C00D8E481 /* AnimationExample.swift */,
+				1FD477E82BFBB78500D8E481 /* AnimationExample2.swift */,
 				1FCA89B82BFB800D001BD5E5 /* FlameEffectModifier.swift */,
 				1FCA89AE2BFB7F88001BD5E5 /* Assets.xcassets */,
 				1FCA89B02BFB7F88001BD5E5 /* Preview Content */,
@@ -152,11 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD477E92BFBB78500D8E481 /* AnimationExample2.swift in Sources */,
 				1FCA89AD2BFB7F87001BD5E5 /* ContentView.swift in Sources */,
 				1FCA89B92BFB800D001BD5E5 /* FlameEffectModifier.swift in Sources */,
 				1FCA89BB2BFB8BB9001BD5E5 /* ScaleImplicitAnimation.swift in Sources */,
 				1FD477E72BFBA05C00D8E481 /* AnimationExample.swift in Sources */,
 				1FCA89AB2BFB7F87001BD5E5 /* AnimationsApp.swift in Sources */,
+				1FD477EB2BFBB80C00D8E481 /* PolygonShape2.swift in Sources */,
 				1FD477E32BFB998400D8E481 /* PolygonShape.swift in Sources */,
 				1FD477E52BFB9FBC00D8E481 /* MyButton.swift in Sources */,
 			);
